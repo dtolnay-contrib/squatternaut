@@ -1,9 +1,11 @@
 [package]
 name = "squatternaut"
-version = "0.0.0"
+version = "0.0.1+final"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
+description = "Machine-readable database of squatted crates on crates.io"
 edition = "2021"
-publish = false
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dtolnay/squatternaut"
 
 [dependencies]
 anyhow = "1"
